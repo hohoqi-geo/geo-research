@@ -1,0 +1,76 @@
+{
+  "references": [
+    {
+      "id": "2311.09735",
+      "type": "paper",
+      "title": "GEO: Generative Engine Optimization",
+      "authors": ["Aggarwal, P.", "Murahari, V.", "Rajpurohit, T.", "Kalyan, A.", "Narasimhan, K.", "Deshpande, A."],
+      "year": 2023,
+      "venue": "arXiv preprint (KDD 2024)",
+      "url": "https://arxiv.org/abs/2311.09735",
+      "bibtex": "@inproceedings{aggarwal2023geo,\n  title={GEO: Generative Engine Optimization},\n  author={Aggarwal, Pranjal and Murahari, Varan and Rajpurohit, Tanmay and Kalyan, Ashwin and Narasimhan, Karthik and Deshpande, Ameet},\n  booktitle={Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},\n  year={2023},\n  url={https://arxiv.org/abs/2311.09735}\n}",
+      "en": { "why": "Defines GEO as optimizing content for generative engines and reports measurable visibility gains from citation-oriented content." },
+      "zh": { "why": "提出 GEO（生成式引擎优化）概念，并证明面向引用的内容调整能提升生成式引擎中的可见度。" }
+    },
+    {
+      "id": "2304.09848",
+      "type": "paper",
+      "title": "Evaluating Verifiability in Generative Search Engines",
+      "authors": ["Liu, N. F.", "Zhang, T.", "Liang, P."],
+      "year": 2023,
+      "venue": "arXiv preprint",
+      "url": "https://arxiv.org/abs/2304.09848",
+      "bibtex": "@article{liu2023verifiability,\n  title={Evaluating Verifiability in Generative Search Engines},\n  author={Liu, Nelson F. and Zhang, Tianyi and Liang, Percy},\n  journal={arXiv preprint arXiv:2304.09848},\n  year={2023},\n  url={https://arxiv.org/abs/2304.09848}\n}",
+      "en": { "why": "Shows that generative search answers often lack citations and can contradict their own sources — why evidence and citation checks matter." },
+      "zh": { "why": "研究表明生成式搜索的回答经常缺少引用、甚至与自身来源矛盾——这正是必须做证据与引用校验的原因。" }
+    },
+    {
+      "id": "2307.03172",
+      "type": "paper",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "authors": ["Liu, N. F.", "Lin, K.", "Hewitt, J.", "Paranjape, A.", "Bevilacqua, M.", "Petroni, F.", "Liang, P."],
+      "year": 2023,
+      "venue": "arXiv preprint (TACL 2024)",
+      "url": "https://arxiv.org/abs/2307.03172",
+      "bibtex": "@article{liu2023lost,\n  title={Lost in the Middle: How Language Models Use Long Contexts},\n  author={Liu, Nelson F. and Lin, Kevin and Hewitt, John and Paranjape, Ashwin and Bevilacqua, Michele and Petroni, Fabio and Liang, Percy},\n  journal={arXiv preprint arXiv:2307.03172},\n  year={2023},\n  url={https://arxiv.org/abs/2307.03172}\n}",
+      "en": { "why": "Provides evidence that models use information in the middle of long contexts poorly — supports chunking content and putting key facts early." },
+      "zh": { "why": "证明模型对长上下文中部信息的利用较差——支持「chunk 分块、关键事实前置」的做法。" }
+    },
+    {
+      "id": "2005.11401",
+      "type": "paper",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "authors": ["Lewis, P.", "Perez, E.", "Piktus, A.", "Petroni, F.", "Karpukhin, V.", "Goyal, N.", "Küttler, H.", "Lewis, M.", "Yih, W.", "Rocktäschel, T.", "Riedel, S.", "Kiela, D."],
+      "year": 2020,
+      "venue": "NeurIPS 2020",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "bibtex": "@inproceedings{lewis2020rag,\n  title={Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks},\n  author={Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and Petroni, Fabio and Karpukhin, Vladimir and Goyal, Naman and K{\\\"u}ttler, Heinrich and Lewis, Mike and Yih, Wen-tau and Rockt{\\\"a}schel, Tim and Riedel, Sebastian and Kiela, Douwe},\n  booktitle={Advances in Neural Information Processing Systems},\n  year={2020},\n  url={https://arxiv.org/abs/2005.11401}\n}",
+      "en": { "why": "The foundational RAG paper: retrieval + generation is why machine-readable, retrievable content matters." },
+      "zh": { "why": "RAG 的基础论文：检索 + 生成，正是「内容可被检索」决定 AI 能否正确回答的原因。" }
+    },
+    {
+      "id": "2312.10997",
+      "type": "paper",
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "authors": ["Gao, Y.", "Xiong, Y.", "Gao, X.", "Jia, K.", "Pan, J.", "Bi, Y.", "Dai, Y.", "Sun, J.", "Wang, H."],
+      "year": 2023,
+      "venue": "arXiv preprint",
+      "url": "https://arxiv.org/abs/2312.10997",
+      "bibtex": "@article{gao2023ragsurvey,\n  title={Retrieval-Augmented Generation for Large Language Models: A Survey},\n  author={Gao, Yunfan and Xiong, Yun and Gao, Xinyu and Jia, Kangxiang and Pan, Jinliu and Bi, Yuxi and Dai, Yi and Sun, Jiawei and Wang, Haofen},\n  journal={arXiv preprint arXiv:2312.10997},\n  year={2023},\n  url={https://arxiv.org/abs/2312.10997}\n}",
+      "en": { "why": "Survey of RAG architectures and chunking/retrieval trade-offs — useful for structuring content for retrieval." },
+      "zh": { "why": "系统梳理 RAG 架构与 chunk/检索权衡——对「为检索而组织内容」有直接参考价值。" }
+    },
+    {
+      "id": "2112.09332",
+      "type": "paper",
+      "title": "WebGPT: Browser-assisted question-answering with human feedback",
+      "authors": ["Nakano, R.", "Hilton, J.", "Balaji, S.", "Wu, J.", "Ouyang, L.", "Kim, C.", "Hesse, C.", "Jain, S.", "Kosaraju, V.", "Saunders, W.", "Jiang, X.", "Cobbe, K.", "Ziegler, D.", "Myers, J.", "Plappert, T.", "Zaremba, W.", "Schulman, J.", "Hilton, J."],
+      "year": 2021,
+      "venue": "arXiv preprint",
+      "url": "https://arxiv.org/abs/2112.09332",
+      "bibtex": "@article{nakano2021webgpt,\n  title={WebGPT: Browser-assisted question-answering with human feedback},\n  author={Nakano, Reiichiro and Hilton, Jacob and Balaji, Suchir and Wu, Jeff and Ouyang, Long and Kim, Christina and Hesse, Christopher and Jain, Shantanu and Kosaraju, Vineet and Saunders, William and Jiang, Xu and Cobbe, Karl and Ziegler, Daniel and Myers, Jeff and Plappert, Tyna and Zaremba, Wojciech and Schulman, John and Hilton, Jacob},\n  journal={arXiv preprint arXiv:2112.09332},\n  year={2021},\n  url={https://arxiv.org/abs/2112.09332}\n}",
+      "en": { "why": "Early browser-augmented answering work: models read and cite web pages, which is why page-level readability and citations matter." },
+      "zh": { "why": "早期「浏览器增强问答」研究：模型会读取并引用网页，说明页面可读性与引用为何重要。" }
+    }
+  ]
+}
