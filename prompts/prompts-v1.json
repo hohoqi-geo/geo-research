@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "description": "GEO-Sentry open prompt set for AI visibility measurement. Prompts are templates: replace [brand], [competitor], [category], [country] before running.",
+  "markets": {
+    "overseas": {
+      "label": { "en": "Overseas-facing stores", "zh": "面向海外客户" },
+      "engines": ["ChatGPT", "Gemini", "Claude", "Perplexity", "Copilot", "Grok"]
+    },
+    "mainland": {
+      "label": { "en": "Mainland-China-facing stores", "zh": "面向中国大陆客户" },
+      "engines": ["DeepSeek", "Qwen (Tongyi Qianwen)", "Doubao", "ERNIE", "Kimi", "GLM"]
+    }
+  },
+  "intents": [
+    { "id": "discovery", "en": "Category discovery", "zh": "品类发现" },
+    { "id": "comparison", "en": "Brand comparison", "zh": "品牌对比" },
+    { "id": "policy", "en": "Shipping / returns", "zh": "物流与退货" },
+    { "id": "trust", "en": "Brand trust", "zh": "品牌信任" },
+    { "id": "spec", "en": "Material / specs", "zh": "材质与规格" },
+    { "id": "care", "en": "Usage / care", "zh": "使用与保养" }
+  ],
+  "prompts": [
+    { "id": "ov-01", "market": "overseas", "intent": "discovery", "en": "What is the best [category] for beginners in 2026?", "zh": "2026 年最适合新手的 [category] 是哪款？" },
+    { "id": "ov-02", "market": "overseas", "intent": "discovery", "en": "Which [category] do experts recommend for sensitive skin?", "zh": "敏感人群专家推荐哪款 [category]？" },
+    { "id": "ov-03", "market": "overseas", "intent": "comparison", "en": "[brand] vs [competitor]: which one is better and why?", "zh": "[brand] 和 [competitor] 哪个更好？为什么？" },
+    { "id": "ov-04", "market": "overseas", "intent": "comparison", "en": "Is [brand] worth the price compared with [competitor]?", "zh": "相比 [competitor]，[brand] 值这个价吗？" },
+    { "id": "ov-05", "market": "overseas", "intent": "policy", "en": "Does [brand] ship to [country] and how long does delivery take?", "zh": "[brand] 发货到 [country] 吗？要多久？" },
+    { "id": "ov-06", "market": "overseas", "intent": "policy", "en": "What is [brand]'s return policy for opened products?", "zh": "[brand] 拆封商品的退货政策是什么？" },
+    { "id": "ov-07", "market": "overseas", "intent": "trust", "en": "Is [brand] a legitimate and safe store to buy from?", "zh": "[brand] 是正规、安全的店铺吗？" },
+    { "id": "ov-08", "market": "overseas", "intent": "trust", "en": "What do reviews say about [brand] product quality?", "zh": "评价里怎么说 [brand] 的产品质量？" },
+    { "id": "ov-09", "market": "overseas", "intent": "spec", "en": "What material is [brand] [category] made of and is it body-safe?", "zh": "[brand] 的 [category] 是什么材质？对身体安全吗？" },
+    { "id": "ov-10", "market": "overseas", "intent": "spec", "en": "What are the dimensions and weight of [brand] [category]?", "zh": "[brand] [category] 的尺寸和重量是多少？" },
+    { "id": "ov-11", "market": "overseas", "intent": "care", "en": "How should I clean and store a [category]?", "zh": "[category] 应该怎么清洗和存放？" },
+    { "id": "ov-12", "market": "overseas", "intent": "care", "en": "What lubricant is compatible with [brand] [category]?", "zh": "[brand] [category] 适合搭配什么润滑剂？" },
+    { "id": "cn-01", "market": "mainland", "intent": "discovery", "en": "2026 年新手适合哪款 [category]？", "zh": "2026 年新手适合哪款 [category]？" },
+    { "id": "cn-02", "market": "mainland", "intent": "discovery", "en": "敏感人群推荐哪个品牌的 [category]？", "zh": "敏感人群推荐哪个品牌的 [category]？" },
+    { "id": "cn-03", "market": "mainland", "intent": "comparison", "en": "[brand] 和 [competitor] 哪个更好？", "zh": "[brand] 和 [competitor] 哪个更好？" },
+    { "id": "cn-04", "market": "mainland", "intent": "comparison", "en": "[brand] 和 [competitor] 的价格与配置怎么选？", "zh": "[brand] 和 [competitor] 的价格与配置怎么选？" },
+    { "id": "cn-05", "market": "mainland", "intent": "policy", "en": "[brand] 是否发货到 [country]？时效多久？", "zh": "[brand] 是否发货到 [country]？时效多久？" },
+    { "id": "cn-06", "market": "mainland", "intent": "policy", "en": "[brand] 的退换货政策是什么？", "zh": "[brand] 的退换货政策是什么？" },
+    { "id": "cn-07", "market": "mainland", "intent": "trust", "en": "[brand] 是正规品牌吗？有资质吗？", "zh": "[brand] 是正规品牌吗？有资质吗？" },
+    { "id": "cn-08", "market": "mainland", "intent": "trust", "en": "[brand] 的用户评价和口碑怎么样？", "zh": "[brand] 的用户评价和口碑怎么样？" },
+    { "id": "cn-09", "market": "mainland", "intent": "spec", "en": "[brand] 的 [category] 是什么材质？安全吗？", "zh": "[brand] 的 [category] 是什么材质？安全吗？" },
+    { "id": "cn-10", "market": "mainland", "intent": "spec", "en": "[brand] [category] 的尺寸和重量是多少？", "zh": "[brand] [category] 的尺寸和重量是多少？" },
+    { "id": "cn-11", "market": "mainland", "intent": "care", "en": "[category] 怎么清洗和保养？", "zh": "[category] 怎么清洗和保养？" },
+    { "id": "cn-12", "market": "mainland", "intent": "care", "en": "[brand] [category] 适合搭配什么润滑剂？", "zh": "[brand] [category] 适合搭配什么润滑剂？" }
+  ]
+}
