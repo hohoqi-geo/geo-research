@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use these assets, please cite GEO-Sentry."
+title: GEO-Sentry Open Research Assets
+type: dataset
+authors:
+  - name: GEO-Sentry Editorial Team
+    website: https://geoshenji.com/authors/
+version: 1.0.0
+date-released: "2026-11-09"
+url: https://geoshenji.com/research/
+repository-code: https://github.com/hohoqi-geo/geo-research
+abstract: "Prompt set, academic references, methodology and benchmark protocol for GEO (Generative Engine Optimization) research."
